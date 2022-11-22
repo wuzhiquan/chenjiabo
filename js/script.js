@@ -1101,7 +1101,7 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
+					'MF000': '发送成功',
 					'MF001': 'Recipients are not set!',
 					'MF002': 'Form will not work locally!',
 					'MF003': 'Please, define email field in your form!',
@@ -1211,8 +1211,7 @@
 						if (formHasCaptcha) {
 							grecaptcha.reset();
 						}
-
-						result = result.length === 5 ? result : 'MF255';
+						result = result == 1 ? 'MF000' : 'MF255';
 						output.text(msg[result]);
 
 						if (result === "MF000") {
