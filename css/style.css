@@ -198,6 +198,14 @@ h2,
 	line-height: 1.66667;
 }
 
+h2 img,
+.heading-2 img{
+	top: 18px;
+}
+
+.quote-jean{
+  font-size: 14px;
+}
 
 h3,
 .heading-3 {
@@ -223,8 +231,15 @@ h3,
 	.heading-2 {
 		font-size: 42px;
 	}
+	h2 img,
+	.heading-2 img{
+		top: 25px;
+	}
   .ques-wrap{
     height: 310px;
+  }
+  .quote-jean{
+    font-size: 18px;
   }
 }
 
@@ -1087,7 +1102,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 310px;
+	min-height: 240px;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
 	transition: all .3s ease;
 }
@@ -2468,7 +2483,7 @@ hr {
 
 .title-decoration-lines-left {
 	position: relative;
-	padding-left: 26px;
+	padding-left: 20px;
 }
 
 .title-decoration-lines-left::before {
@@ -4168,7 +4183,7 @@ textarea.form-input {
 }
 
 textarea.textarea-lg {
-	height: 206px;
+	height: 120px;
 	max-height: 350px;
 	resize: vertical;
 }
@@ -6511,7 +6526,7 @@ textarea.textarea-lg {
 
 @media (min-width: 1200px) {
 	.desktop .thumbnail-classic-caption {
-		padding: 30px;
+		padding: 0;
 	}
 	.desktop .thumbnail-classic-text {
 		font-size: inherit;
@@ -13721,10 +13736,11 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
-	max-width: 170px;
+	max-width: 110px;
 	max-height: 58px;
 	width: auto;
 	height: auto;
+	margin-right: 20px;
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
@@ -14666,8 +14682,9 @@ html.rd-navbar-fixed-linked .page-header {
 
 @media (min-width: 1400px) {
 	.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
-		max-width: 230px;
+		max-width: 140px;
 		max-height: 230px;
+		margin-left: 36px;
 	}
 }
 
