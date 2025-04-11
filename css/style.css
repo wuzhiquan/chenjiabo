@@ -15401,7 +15401,7 @@ html.rd-navbar-fixed-linked .page-header {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	width: 29px;
+	width: 5px;
 	height: 19px;
 	border-radius: 0;
 	background: transparent;
@@ -15449,7 +15449,7 @@ html.rd-navbar-fixed-linked .page-header {
 }
 
 .swiper-slider-classic .swiper-pagination .swiper-pagination-bullet {
-	margin: 0 16px;
+	margin: 0 4px;
 }
 
 .swiper-slider-classic h1 {
@@ -15497,6 +15497,9 @@ html.rd-navbar-fixed-linked .page-header {
 	.swiper-slider-classic .swiper-slide-custom {
 		padding-left: 0;
 	}
+  .swiper-slider-classic .swiper-pagination-bullet {
+    width: 29px;
+  }
 }
 
 @media (min-width: 992px) {
